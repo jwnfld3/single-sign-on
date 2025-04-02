@@ -53,23 +53,41 @@ Enabling SSO for SaaS applications is critical for:
 ### Step 1: Register the SaaS Application in Microsoft Entra ID
 1. Sign in to the **Microsoft Entra Admin Center** at [https://entra.microsoft.com](https://entra.microsoft.com).
 2. Navigate to **Enterprise Applications** > **New Application**.
+![image](https://github.com/user-attachments/assets/d95efa8d-7641-4f5a-b59a-b2e80a78886e)
+![image](https://github.com/user-attachments/assets/c4412b64-2a59-4799-a5f9-fbd240c80acf)
+
 3. Search for the SaaS application (e.g., Salesforce, Dropbox, Google Workspace) and select it.
-4. Click **Add** to register the application.
+![image](https://github.com/user-attachments/assets/25440004-f9c5-41f4-af1f-8888d6d8215a)
+![image](https://github.com/user-attachments/assets/f0cab8f4-a771-4b7b-9a11-8cf74d49a308)
 
 ### Step 2: Configure Single Sign-On (SSO)
 1. In the **Enterprise Applications** section, select the newly added application.
 2. Under the **Manage** menu, select **Single sign-on**.
+![image](https://github.com/user-attachments/assets/82df5c1a-da58-4796-b67b-86c7270ad110)
+
 3. Choose **SAML** as the SSO method.
+![image](https://github.com/user-attachments/assets/1f17faf3-648b-4fa2-a697-cac87b8bbd36)
+
 4. Click **Edit** in the **Basic SAML Configuration** section and enter the required information:
-   - **Identifier (Entity ID)** – Provided by the SaaS application.
+![image](https://github.com/user-attachments/assets/07c2f8fc-43ae-431c-93d5-3362f63319bc)
+
+    - **Identifier (Entity ID)** – Provided by the SaaS application.
    - **Reply URL (Assertion Consumer Service URL)** – Provided by the SaaS application.
    - **Sign-on URL** – The login URL for the application.
-5. Save the configuration and download the **Federation Metadata XML** file or copy the **App Federation Metadata URL**.
+![image](https://github.com/user-attachments/assets/6ffb9402-340c-4ad4-82dd-21811f350566)
+
+6. Save the configuration and download the **Federation Metadata XML** file or copy the **App Federation Metadata URL**.
+![image](https://github.com/user-attachments/assets/585f47ea-e04b-407c-a03e-df6e91adb04a)
 
 ### Step 3: Assign Users and Groups
+![image](https://github.com/user-attachments/assets/e9f8cb23-57b0-4ef3-aaeb-4211b1ba33c3)
+
 1. Go to **Users and Groups** in the application settings.
 2. Click **Add User/Group** and select the users or groups who need access.
+![image](https://github.com/user-attachments/assets/bf36e5cc-1ed5-4a43-8895-923ba2d26f6d)
+
 3. Click **Assign** to grant access.
+![image](https://github.com/user-attachments/assets/42cedbf7-0237-42c1-bdfe-c3aa712f9f8a)
 
 ### Step 4: Configure the SaaS Application for SAML Authentication
 1. Log in to the SaaS application's admin portal.

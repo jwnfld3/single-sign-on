@@ -111,10 +111,6 @@ Enabling SSO for SaaS applications is critical for:
 2. Verify successful authentication and access to the application.
 ![image](https://github.com/user-attachments/assets/08e94844-f7af-487d-a262-b5f160a691b0)
 
-### Step 6: Monitor and Troubleshoot SSO Authentication
-1. In the **Microsoft Entra Admin Center**, navigate to **Sign-in logs** under **Monitoring**.
-2. Filter logs by the application to check login attempts.
-3. Troubleshoot any authentication issues using error codes and recommendations.
 
 ## Conclusion
 This lab demonstrated how to configure **SAML-based Single Sign-On (SSO)** for a SaaS application using **Microsoft Entra ID**. By enabling SSO, organizations can enhance security, improve user experience, and enforce centralized authentication policies. Further configurations can include **Multi-Factor Authentication (MFA)** and **Conditional Access policies** for additional security layers.

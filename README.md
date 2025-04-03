@@ -96,16 +96,18 @@ Enabling SSO for SaaS applications is critical for:
 
 3. Upload the **Federation Metadata XML** or enter the **Microsoft Entra ID SAML Endpoint** manually.
 4. Download the Certificate (Base64) to add into the DropBox admin console.
-![image](https://github.com/user-attachments/assets/01790db5-5a53-40c1-a9d8-bc92f6941329)
+![image](https://github.com/user-attachments/assets/125451b9-2f88-472f-acac-ceee8b6fc9a6)
+
 ![image](https://github.com/user-attachments/assets/657fb711-5750-496d-a82f-3c8145ad394e)
 
 5. Save the changes and enable SSO authentication.
 
 ### Step 5: Test the SSO Login Flow
 1. Open a new browser window and navigate to the **SaaS application's login page**.
-2. Click **Sign in with Microsoft Entra ID** or use the direct login URL.
-3. Enter Entra ID credentials when prompted.
-4. Verify successful authentication and access to the application.
+![image](https://github.com/user-attachments/assets/951645cf-8387-4aab-bfcb-ff027d6c8dc3)
+
+2. Verify successful authentication and access to the application.
+![image](https://github.com/user-attachments/assets/08e94844-f7af-487d-a262-b5f160a691b0)
 
 ### Step 6: Monitor and Troubleshoot SSO Authentication
 1. In the **Microsoft Entra Admin Center**, navigate to **Sign-in logs** under **Monitoring**.

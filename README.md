@@ -95,8 +95,10 @@ Enabling SSO for SaaS applications is critical for:
 ![image](https://github.com/user-attachments/assets/634839eb-4b0e-41e1-9abf-31ee4d7050e9)
 
 3. Upload the **Federation Metadata XML** or enter the **Microsoft Entra ID SAML Endpoint** manually.
-4. Download the Certificate (Base64) to add into the DropBox admin console.
 ![image](https://github.com/user-attachments/assets/125451b9-2f88-472f-acac-ceee8b6fc9a6)
+
+4. Download the Certificate (Base64) to add into the DropBox admin console.
+![image](https://github.com/user-attachments/assets/0eb8ebf8-e86d-42aa-b066-6c4033b4b57c)
 
 ![image](https://github.com/user-attachments/assets/657fb711-5750-496d-a82f-3c8145ad394e)
 

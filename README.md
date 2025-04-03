@@ -92,8 +92,14 @@ Enabling SSO for SaaS applications is critical for:
 ### Step 4: Configure the SaaS Application for SAML Authentication
 1. Log in to the SaaS application's admin portal.
 2. Navigate to the **SSO Settings** or **Identity Provider (IdP) Configuration**.
+![image](https://github.com/user-attachments/assets/634839eb-4b0e-41e1-9abf-31ee4d7050e9)
+
 3. Upload the **Federation Metadata XML** or enter the **Microsoft Entra ID SAML Endpoint** manually.
-4. Save the changes and enable SSO authentication.
+4. Download the Certificate (Base64) to add into the DropBox admin console.
+![image](https://github.com/user-attachments/assets/01790db5-5a53-40c1-a9d8-bc92f6941329)
+![image](https://github.com/user-attachments/assets/657fb711-5750-496d-a82f-3c8145ad394e)
+
+5. Save the changes and enable SSO authentication.
 
 ### Step 5: Test the SSO Login Flow
 1. Open a new browser window and navigate to the **SaaS application's login page**.

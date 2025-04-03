@@ -56,7 +56,7 @@ Enabling SSO for SaaS applications is critical for:
 ![image](https://github.com/user-attachments/assets/d95efa8d-7641-4f5a-b59a-b2e80a78886e)
 ![image](https://github.com/user-attachments/assets/c4412b64-2a59-4799-a5f9-fbd240c80acf)
 
-3. Search for the SaaS application (e.g., Salesforce, Dropbox, Google Workspace) and select it.
+3. Search for the SaaS application Dropbox and select it.
 ![image](https://github.com/user-attachments/assets/25440004-f9c5-41f4-af1f-8888d6d8215a)
 ![image](https://github.com/user-attachments/assets/f0cab8f4-a771-4b7b-9a11-8cf74d49a308)
 

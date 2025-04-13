@@ -98,6 +98,14 @@ Enabling SSO for SaaS applications is critical for:
 ![image](https://github.com/user-attachments/assets/125451b9-2f88-472f-acac-ceee8b6fc9a6)
 
 4. Download the Certificate (Base64) to add into the DropBox admin console.
+
+**Definition:**
+
+This certificate is a Base64-encoded X.509 public key provided by Microsoft Entra ID. It is used to **digitally sign the SAML tokens** sent to Dropbox during Single Sign-On (SSO). By uploading this certificate into the Dropbox admin console, Dropbox can **verify the authenticity and integrity** of the login requests coming from Microsoft Entra ID.
+
+**Why it matters:**  
+This establishes trust between Microsoft Entra ID (identity provider) and Dropbox (service provider) and ensures that users logging in through SSO are securely authenticated.
+
 ![image](https://github.com/user-attachments/assets/0eb8ebf8-e86d-42aa-b066-6c4033b4b57c)
 
 ![image](https://github.com/user-attachments/assets/657fb711-5750-496d-a82f-3c8145ad394e)
